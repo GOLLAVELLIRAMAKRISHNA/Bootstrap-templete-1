@@ -1,0 +1,207 @@
+::placeholder {
+    text-transform: capitalize;
+}
+
+.header-container,
+.special,
+.custom,
+.work,
+.text-center button,
+div.container-fluid.py-4 {
+    background-color: #052f67;
+}
+
+.header-container{
+    height: 100vh;
+}
+
+.navbar-brand h2 i {
+    margin-right: 6px;
+}
+
+.nav-link {
+    text-transform: capitalize;
+}
+
+.header-container>.container {
+    margin: 150px auto;
+    padding: 0px 50px;
+}
+
+.row .form-control {
+    width: 35%;
+    margin: 10px;
+    border-radius: 50px;
+}
+
+.row .btn {
+    width: 20%;
+    height: 35px;
+    border-radius: 50px;
+    text-transform: capitalize;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn:hover {
+    background-color: black !important;
+    color: white !important;
+}
+
+.fs-6 {
+    font-size: 18px !important;
+}
+
+.card {
+    width: 30%;
+    background-color: #9b9b9b !important;
+}
+
+.bg {
+    background-color: #9b9b9b !important;
+}
+
+.bg p {
+    color: black;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.card img {
+    width: 60px !important;
+}
+
+.card-text {
+    color: black;
+}
+
+.btn {
+    border-radius: 50px !important;
+}
+
+.h-60 {
+    height: 60vh;
+}
+
+.custom {
+    color: #fff;
+}
+
+.img {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    height: 40vh !important;
+    width: 100% !important;
+    border-radius: 50% !important;
+    background-color: #fff !important;
+}
+
+.transparent {
+    background-color: transparent !important;
+    border: none !important;
+    color: #fff !important;
+}
+
+.card-text {
+    color: #fff;
+}
+
+.card-body a {
+    color: #fff !important;
+}
+
+.direction-1 {
+    left: 15%;
+}
+
+.direction-2 {
+    right: 15%;
+}
+
+.rounded img.p-5 {
+    width: 200px;
+}
+
+.rounded img.p-2 {
+    width: 100px;
+}
+
+.circle {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #9b9b9b;
+    margin: 0px 5px;
+}
+
+.text-center button {
+    border-radius: 50px;
+}
+
+@media screen and (max-width:992px) {
+
+    .header-container {
+        height: auto !important;
+    }
+
+    .cards {
+        flex-wrap: wrap !important;
+    }
+
+    .container {
+        width: 95% !important;
+    }
+
+    .header-container>.container {
+        margin: 20px auto;
+        padding: 0px 30px;
+    }
+
+    .col-md-8 {
+        width: 100% !important;
+    }
+
+    .card {
+        width: 90%;
+        margin-top: 10px;
+        background-color: #9b9b9b !important;
+    }
+
+    .row .btn,
+    .row .form-control {
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .row .btn {
+        margin-left: 0;
+    }
+
+    div.container.w-100 {
+        margin: 0;
+    }
+
+    .header-content {
+        margin: 0;
+    }
+
+    .fs-6.mt-3 {
+        margin: 0;
+    }
+
+    .transparent {
+        background-color: transparent !important;
+        border: none !important;
+        color: #fff !important;
+    }
+
+}
+
+@media screen and (max-width:576px) {
+    .none {
+        display: none !important;
+    }
+}
